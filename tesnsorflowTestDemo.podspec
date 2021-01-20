@@ -25,10 +25,10 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '513433750@qq.com' => '513433750@qq.com' }
-  s.source           = { :git => 'https://github.com/513433750@qq.com/tesnsorflowTestDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HavenWWH/TensorflowDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'tesnsorflowTestDemo/Classes/**/*'
   

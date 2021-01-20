@@ -22,6 +22,16 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		81B2BDA025B81E8C0037D562 /* word.json in Resources */ = {isa = PBXBuildFile; fileRef = 81B2BD9F25B81E8C0037D562 /* word.json */; };
+		81B2BDA625B822840037D562 /* 7799.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81B2BDA525B822840037D562 /* 7799.txt */; };
+		81B2BDAC25B8229A0037D562 /* converted_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 81B2BDAB25B8229A0037D562 /* converted_model.tflite */; };
+		81B2BDB025B822F30037D562 /* 扫.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81B2BDAF25B822F30037D562 /* 扫.txt */; };
+		81C6994C25B7CDE4003EBE93 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C6994B25B7CDE4003EBE93 /* DemoViewController.m */; };
+		81C6995425B7D273003EBE93 /* multi_add.bin in Resources */ = {isa = PBXBuildFile; fileRef = 81C6995125B7D272003EBE93 /* multi_add.bin */; };
+		81C6995525B7D273003EBE93 /* add_quantized.bin in Resources */ = {isa = PBXBuildFile; fileRef = 81C6995225B7D272003EBE93 /* add_quantized.bin */; };
+		81C6995625B7D273003EBE93 /* add.bin in Resources */ = {isa = PBXBuildFile; fileRef = 81C6995325B7D273003EBE93 /* add.bin */; };
+		81FAB35D25B6B98700F91271 /* chinese_characters_split_sort_unique.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81FAB35B25B6B98600F91271 /* chinese_characters_split_sort_unique.txt */; };
+		81FAB37425B6D09300F91271 /* TensorFlowTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB37325B6D09300F91271 /* TensorFlowTool.m */; };
 		857B2C573493398BA5E3233D /* Pods_tesnsorflowTestDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCA9FD90624D085E8E64B4C /* Pods_tesnsorflowTestDemo_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -60,12 +70,24 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		628001B0082DFF4206871C5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		628001B0082DFF4206871C5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B2BD9F25B81E8C0037D562 /* word.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = word.json; sourceTree = "<group>"; };
+		81B2BDA525B822840037D562 /* 7799.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 7799.txt; path = ../../../../../Downloads/ocr_demo/7799.txt; sourceTree = "<group>"; };
+		81B2BDAB25B8229A0037D562 /* converted_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = converted_model.tflite; sourceTree = "<group>"; };
+		81B2BDAF25B822F30037D562 /* 扫.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "扫.txt"; sourceTree = "<group>"; };
+		81C6994A25B7CDE4003EBE93 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		81C6994B25B7CDE4003EBE93 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		81C6995125B7D272003EBE93 /* multi_add.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = multi_add.bin; sourceTree = "<group>"; };
+		81C6995225B7D272003EBE93 /* add_quantized.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = add_quantized.bin; sourceTree = "<group>"; };
+		81C6995325B7D273003EBE93 /* add.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = add.bin; sourceTree = "<group>"; };
+		81FAB35B25B6B98600F91271 /* chinese_characters_split_sort_unique.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chinese_characters_split_sort_unique.txt; sourceTree = "<group>"; };
+		81FAB37225B6D09300F91271 /* TensorFlowTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TensorFlowTool.h; sourceTree = "<group>"; };
+		81FAB37325B6D09300F91271 /* TensorFlowTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TensorFlowTool.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CB2F85EA253C7E17CDB3445 /* Pods_tesnsorflowTestDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tesnsorflowTestDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		968F0FAAEA62DAEBA33DE752 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DBBAC44A2A8348F85E37A0A4 /* tesnsorflowTestDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = tesnsorflowTestDemo.podspec; path = ../tesnsorflowTestDemo.podspec; sourceTree = "<group>"; };
+		968F0FAAEA62DAEBA33DE752 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DBBAC44A2A8348F85E37A0A4 /* tesnsorflowTestDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = tesnsorflowTestDemo.podspec; path = ../tesnsorflowTestDemo.podspec; sourceTree = "<group>"; };
 		DCCA9FD90624D085E8E64B4C /* Pods_tesnsorflowTestDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tesnsorflowTestDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,11 +154,15 @@
 		6003F593195388D20070C39A /* Example for tesnsorflowTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* HHAppDelegate.h */,
-				6003F59D195388D20070C39A /* HHAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				81C6994A25B7CDE4003EBE93 /* DemoViewController.h */,
+				81C6994B25B7CDE4003EBE93 /* DemoViewController.m */,
 				6003F5A5195388D20070C39A /* HHViewController.h */,
 				6003F5A6195388D20070C39A /* HHViewController.m */,
+				6003F59C195388D20070C39A /* HHAppDelegate.h */,
+				6003F59D195388D20070C39A /* HHAppDelegate.m */,
+				81FAB37225B6D09300F91271 /* TensorFlowTool.h */,
+				81FAB37325B6D09300F91271 /* TensorFlowTool.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -148,8 +174,13 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81B2BD9F25B81E8C0037D562 /* word.json */,
+				81B2BDA525B822840037D562 /* 7799.txt */,
+				81B2BDAF25B822F30037D562 /* 扫.txt */,
 				6003F595195388D20070C39A /* tesnsorflowTestDemo-Info.plist */,
+				81B2BDAB25B8229A0037D562 /* converted_model.tflite */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
+				81FAB35B25B6B98600F91271 /* chinese_characters_split_sort_unique.txt */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* tesnsorflowTestDemo-Prefix.pch */,
 			);
@@ -178,6 +209,9 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				81C6995225B7D272003EBE93 /* add_quantized.bin */,
+				81C6995325B7D273003EBE93 /* add.bin */,
+				81C6995125B7D272003EBE93 /* multi_add.bin */,
 				DBBAC44A2A8348F85E37A0A4 /* tesnsorflowTestDemo.podspec */,
 				628001B0082DFF4206871C5C /* README.md */,
 				968F0FAAEA62DAEBA33DE752 /* LICENSE */,
@@ -193,7 +227,6 @@
 				3AB34C1FC38AC4470E5496E6 /* Pods-tesnsorflowTestDemo_Tests.debug.xcconfig */,
 				4ACF76C265D730D68C7B7193 /* Pods-tesnsorflowTestDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +281,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "513433750@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XZJA6Q67R9;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +295,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,10 +315,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B2BDAC25B8229A0037D562 /* converted_model.tflite in Resources */,
+				81B2BDA625B822840037D562 /* 7799.txt in Resources */,
+				81C6995525B7D273003EBE93 /* add_quantized.bin in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				81B2BDA025B81E8C0037D562 /* word.json in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				81B2BDB025B822F30037D562 /* 扫.txt in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				81FAB35D25B6B98700F91271 /* chinese_characters_split_sort_unique.txt in Resources */,
+				81C6995625B7D273003EBE93 /* add.bin in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				81C6995425B7D273003EBE93 /* multi_add.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,9 +410,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81FAB37425B6D09300F91271 /* TensorFlowTool.m in Sources */,
 				6003F59E195388D20070C39A /* HHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				81C6994C25B7CDE4003EBE93 /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -494,12 +542,15 @@
 			baseConfigurationReference = 384E5FD82E24A485C802071C /* Pods-tesnsorflowTestDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XZJA6Q67R9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tesnsorflowTestDemo/tesnsorflowTestDemo-Prefix.pch";
 				INFOPLIST_FILE = "tesnsorflowTestDemo/tesnsorflowTestDemo-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeqie.tenssortflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = timeqieGeneralProfile;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +561,15 @@
 			baseConfigurationReference = 22DAEF514D73A30DBE47513B /* Pods-tesnsorflowTestDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tesnsorflowTestDemo/tesnsorflowTestDemo-Prefix.pch";
 				INFOPLIST_FILE = "tesnsorflowTestDemo/tesnsorflowTestDemo-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

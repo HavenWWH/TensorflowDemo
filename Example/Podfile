@@ -4,7 +4,9 @@ platform :ios, '9.0'
 
 target 'tesnsorflowTestDemo_Example' do
   pod 'tesnsorflowTestDemo', :path => '../'
-
+  
+  pod 'TensorFlowLiteObjC'
+  
   target 'tesnsorflowTestDemo_Tests' do
     inherit! :search_paths
 

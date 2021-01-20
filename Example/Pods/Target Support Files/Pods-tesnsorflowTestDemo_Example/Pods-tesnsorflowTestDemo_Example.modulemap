@@ -1,0 +1,6 @@
+framework module Pods_tesnsorflowTestDemo_Example {
+  umbrella header "Pods-tesnsorflowTestDemo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
